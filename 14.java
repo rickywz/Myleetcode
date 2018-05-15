@@ -1,4 +1,4 @@
-版本1：26.49%
+// 版本1：26.49%
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0)
@@ -25,7 +25,7 @@ class Solution {
 
     public boolean BruteForce(String txt, String pat){
         int j = 0, M = pat.length();
-        int i = 0, N = txt.length();
+        int i = 0, N = txt.length();#
         while (i < N && j < M && txt.charAt(i) == pat.charAt(j)) {
             i++;
             j++;
@@ -36,7 +36,7 @@ class Solution {
     }
 }
 
-版本2：95.3%
+// 版本2：95.3%
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0)
